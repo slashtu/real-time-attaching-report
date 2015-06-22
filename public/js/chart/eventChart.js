@@ -1,80 +1,8 @@
+var d3 = require('d3');
 
-<!DOCTYPE html>
-<html class="ocks-org do-not-copy">
-<meta charset="utf-8">
-<head>
-  <base href="/attack/" />
-  <base target="_blank" />
-</head>
-<title>The Wealth & Health of Nations</title>
-<style>
+var Chart = {};
 
-@import url(css/style.css);
-
-#chart {
-  margin-left: -40px;
-  height: 506px;
-}
-
-text {
-  font: 10px sans-serif;
-}
-
-.dot {
-  
-}
-
-.dot:hover {
-  stroke: white;
-  stroke-width: 5px;
-}
-
-.axis path, .axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.label {
-  fill: #777;
-}
-
-.year.label {
-  font: 500 196px "Helvetica Neue";
-  fill: #ddd;
-}
-
-.year.label.active {
-  fill: #aaa;
-}
-
-.overlay {
-  fill: none;
-  pointer-events: all;
-  cursor: ew-resize;
-}
-
-</style>
-
-<header>
-  <aside>June 16, 2015</aside>
-  <a href="/" target="_blank" rel="author">Nexusguard</a>
-</header>
-
-<h1>Real Time Attaching Reporting</h1>
-
-<p id="chart"></p>
-
-<aside>Mouseover the year to move forward and backwards through time.</aside>
-
-
-<footer>
-  <aside></aside>
-  <a href="../" rel="author"></a>
-</footer>
-
-<script src="js/d3.v3.min.js"></script>
-<script>
+Chart.create = function(el){
 
 // Various accessors that specify the four dimensions of data to visualize.
 function x(d) { return d.income; }
@@ -84,8 +12,8 @@ function color(d) { return d.region; }
 function key(d) { return d.name; }
 
 // Chart dimensions.
-var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
-    width = 960 - margin.right,
+var margin = {top: 19.5, right: 0, bottom: 19.5, left: 39.5},
+    width = 1050 - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 // Various scales. These domains make assumptions of data, naturally.
@@ -99,7 +27,7 @@ var xAxis = d3.svg.axis().orient("bottom").scale(xScale).ticks(12, d3.format(",d
     yAxis = d3.svg.axis().scale(yScale).orient("left");
 
 // Create the SVG container and set the origin.
-var svg = d3.select("#chart").append("svg")
+var svg = d3.select(el).append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -158,7 +86,7 @@ d3.selection.prototype.moveToBack = function() {
 };
 
 // Load the data.
-d3.json("data/nations.json", function(nations) {
+d3.json("assets/data/nations.json", function(nations) {
 
   // A bisector since many nation's data is sparsely-defined.
   var bisect = d3.bisector(function(d) { return d[0]; });
@@ -314,12 +242,7 @@ d3.json("data/nations.json", function(nations) {
   }
 });
 
-</script>
-<script>
+};
 
-GoogleAnalyticsObject = "ga", ga = function() { ga.q.push(arguments); }, ga.q = [], ga.l = +new Date;
-ga("create", "UA-48272912-3", "ocks.org");
-ga("send", "pageview");
 
-</script>
-<script async src="//www.google-analytics.com/analytics.js"></script>
+module.exports = Chart;
