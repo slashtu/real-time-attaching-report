@@ -1,0 +1,1669 @@
+{
+  "type": "FeatureCollection",
+  "attack": [
+    {
+      "type": "Feature",
+      "id": "quake.3380927",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.41629,
+          -43.64249
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380927",
+        "origintime": "2010-09-30T19:59:10Z",
+        "longitude": 172.41629,
+        "latitude": -43.64249,
+        "depth": 14.23,
+        "magnitude": 3.56,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 15,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:01:00Z",
+        "bbox": [
+          172.41629,
+          -43.64249,
+          172.41629,
+          -43.64249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380884",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.89977,
+          -43.59876
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380884",
+        "origintime": "2010-09-30T17:58:48Z",
+        "longitude": 171.89977,
+        "latitude": -43.59876,
+        "depth": 5,
+        "magnitude": 3.02,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 14,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:01:00Z",
+        "bbox": [
+          171.89977,
+          -43.59876,
+          171.89977,
+          -43.59876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380864",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.03773,
+          -43.60098
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380864",
+        "origintime": "2010-09-30T17:00:18Z",
+        "longitude": 172.03773,
+        "latitude": -43.60098,
+        "depth": 7.19,
+        "magnitude": 3.32,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 14,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:01:00Z",
+        "bbox": [
+          172.03773,
+          -43.60098,
+          172.03773,
+          -43.60098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380863",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.09402,
+          -43.43431
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380863",
+        "origintime": "2010-09-30T16:57:12Z",
+        "longitude": 172.09402,
+        "latitude": -43.43431,
+        "depth": 5,
+        "magnitude": 3.14,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 13,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:01:00Z",
+        "bbox": [
+          172.09402,
+          -43.43431,
+          172.09402,
+          -43.43431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380862",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.65283,
+          -43.82396
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380862",
+        "origintime": "2010-09-30T16:53:27Z",
+        "longitude": 171.65283,
+        "latitude": -43.82396,
+        "depth": 14.28,
+        "magnitude": 4.1,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 10,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:01:00Z",
+        "bbox": [
+          171.65283,
+          -43.82396,
+          171.65283,
+          -43.82396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380859",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.34032,
+          -43.59729
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380859",
+        "origintime": "2010-09-30T16:44:37Z",
+        "longitude": 172.34032,
+        "latitude": -43.59729,
+        "depth": 5,
+        "magnitude": 3.1,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 10,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:01:00Z",
+        "bbox": [
+          172.34032,
+          -43.59729,
+          172.34032,
+          -43.59729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380798",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.41595,
+          -43.69846
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380798",
+        "origintime": "2010-09-30T13:35:19Z",
+        "longitude": 172.41595,
+        "latitude": -43.69846,
+        "depth": 13.23,
+        "magnitude": 3.17,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 14,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:01:00Z",
+        "bbox": [
+          172.41595,
+          -43.69846,
+          172.41595,
+          -43.69846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380772",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.37759,
+          -43.58788
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380772",
+        "origintime": "2010-09-30T12:21:03Z",
+        "longitude": 172.37759,
+        "latitude": -43.58788,
+        "depth": 5,
+        "magnitude": 3.04,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 11,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:01:00Z",
+        "bbox": [
+          172.37759,
+          -43.58788,
+          172.37759,
+          -43.58788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380709",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.17819,
+          -43.54049
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380709",
+        "origintime": "2010-09-30T09:37:58Z",
+        "longitude": 172.17819,
+        "latitude": -43.54049,
+        "depth": 7.07,
+        "magnitude": 3.65,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 16,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:00:00Z",
+        "bbox": [
+          172.17819,
+          -43.54049,
+          172.17819,
+          -43.54049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380675",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.38022,
+          -43.56557
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380675",
+        "origintime": "2010-09-30T07:57:51Z",
+        "longitude": 172.38022,
+        "latitude": -43.56557,
+        "depth": 5,
+        "magnitude": 3.22,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 10,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:00:00Z",
+        "bbox": [
+          172.38022,
+          -43.56557,
+          172.38022,
+          -43.56557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380466",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.18327,
+          -43.53836
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380466",
+        "origintime": "2010-09-29T21:51:30Z",
+        "longitude": 172.18327,
+        "latitude": -43.53836,
+        "depth": 5,
+        "magnitude": 3.18,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 12,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:00:00Z",
+        "bbox": [
+          172.18327,
+          -43.53836,
+          172.18327,
+          -43.53836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380440",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.36682,
+          -43.6071
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380440",
+        "origintime": "2010-09-29T20:39:19Z",
+        "longitude": 172.36682,
+        "latitude": -43.6071,
+        "depth": 9.72,
+        "magnitude": 4.35,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 37,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:00:00Z",
+        "bbox": [
+          172.36682,
+          -43.6071,
+          172.36682,
+          -43.6071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380414",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.18349,
+          -43.61505
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380414",
+        "origintime": "2010-09-29T19:30:13Z",
+        "longitude": 172.18349,
+        "latitude": -43.61505,
+        "depth": 12,
+        "magnitude": 3.05,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 12,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:00:00Z",
+        "bbox": [
+          172.18349,
+          -43.61505,
+          172.18349,
+          -43.61505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380385",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.16296,
+          -43.63536
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380385",
+        "origintime": "2010-09-29T17:58:13Z",
+        "longitude": 172.16296,
+        "latitude": -43.63536,
+        "depth": 5,
+        "magnitude": 3.08,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 15,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:00:00Z",
+        "bbox": [
+          172.16296,
+          -43.63536,
+          172.16296,
+          -43.63536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.04237,
+          -43.58158
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380292",
+        "origintime": "2010-09-29T13:23:30Z",
+        "longitude": 172.04237,
+        "latitude": -43.58158,
+        "depth": 5,
+        "magnitude": 3.05,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 10,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:00:00Z",
+        "bbox": [
+          172.04237,
+          -43.58158,
+          172.04237,
+          -43.58158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.88434,
+          -43.60775
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380171",
+        "origintime": "2010-09-29T07:34:35Z",
+        "longitude": 171.88434,
+        "latitude": -43.60775,
+        "depth": 5,
+        "magnitude": 3.4,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 16,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:00:00Z",
+        "bbox": [
+          171.88434,
+          -43.60775,
+          171.88434,
+          -43.60775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.21129,
+          -43.61926
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380165",
+        "origintime": "2010-09-29T07:10:13Z",
+        "longitude": 172.21129,
+        "latitude": -43.61926,
+        "depth": 9.71,
+        "magnitude": 3.54,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 20,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:00:00Z",
+        "bbox": [
+          172.21129,
+          -43.61926,
+          172.21129,
+          -43.61926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.53072,
+          -43.87247
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380100",
+        "origintime": "2010-09-29T04:12:42Z",
+        "longitude": 172.53072,
+        "latitude": -43.87247,
+        "depth": 12,
+        "magnitude": 3.23,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 11,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:59:00Z",
+        "bbox": [
+          172.53072,
+          -43.87247,
+          172.53072,
+          -43.87247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.38464,
+          -43.57781
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380070",
+        "origintime": "2010-09-29T02:54:01Z",
+        "longitude": 172.38464,
+        "latitude": -43.57781,
+        "depth": 6.29,
+        "magnitude": 3.37,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 17,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:59:00Z",
+        "bbox": [
+          172.38464,
+          -43.57781,
+          172.38464,
+          -43.57781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.81584,
+          -43.63871
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380065",
+        "origintime": "2010-09-29T02:41:54Z",
+        "longitude": 171.81584,
+        "latitude": -43.63871,
+        "depth": 5,
+        "magnitude": 3.24,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 15,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:59:00Z",
+        "bbox": [
+          171.81584,
+          -43.63871,
+          171.81584,
+          -43.63871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.16112,
+          -43.51199
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380049",
+        "origintime": "2010-09-29T01:54:57Z",
+        "longitude": 172.16112,
+        "latitude": -43.51199,
+        "depth": 7.42,
+        "magnitude": 3.39,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 22,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:59:00Z",
+        "bbox": [
+          172.16112,
+          -43.51199,
+          172.16112,
+          -43.51199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3380006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.47263,
+          -43.62627
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3380006",
+        "origintime": "2010-09-28T23:50:36Z",
+        "longitude": 172.47263,
+        "latitude": -43.62627,
+        "depth": 6.98,
+        "magnitude": 3.25,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 22,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:59:00Z",
+        "bbox": [
+          172.47263,
+          -43.62627,
+          172.47263,
+          -43.62627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379932",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.29407,
+          -43.60715
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379932",
+        "origintime": "2010-09-28T20:30:36Z",
+        "longitude": 172.29407,
+        "latitude": -43.60715,
+        "depth": 5,
+        "magnitude": 3.23,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 10,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:59:00Z",
+        "bbox": [
+          172.29407,
+          -43.60715,
+          172.29407,
+          -43.60715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379811",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.34006,
+          -43.64958
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379811",
+        "origintime": "2010-09-28T14:19:55Z",
+        "longitude": 172.34006,
+        "latitude": -43.64958,
+        "depth": 9.24,
+        "magnitude": 3.53,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 28,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:59:00Z",
+        "bbox": [
+          172.34006,
+          -43.64958,
+          172.34006,
+          -43.64958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379797",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.39557,
+          -43.63082
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379797",
+        "origintime": "2010-09-28T13:27:34Z",
+        "longitude": 172.39557,
+        "latitude": -43.63082,
+        "depth": 8.29,
+        "magnitude": 3.39,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 26,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:59:00Z",
+        "bbox": [
+          172.39557,
+          -43.63082,
+          172.39557,
+          -43.63082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379611",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.10461,
+          -43.433
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379611",
+        "origintime": "2010-09-28T04:44:59Z",
+        "longitude": 172.10461,
+        "latitude": -43.433,
+        "depth": 7.05,
+        "magnitude": 3.96,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 34,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          172.10461,
+          -43.433,
+          172.10461,
+          -43.433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379597",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.34448,
+          -43.5794
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379597",
+        "origintime": "2010-09-28T04:15:56Z",
+        "longitude": 172.34448,
+        "latitude": -43.5794,
+        "depth": 5,
+        "magnitude": 3.2,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 8,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          172.34448,
+          -43.5794,
+          172.34448,
+          -43.5794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379438",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.39375,
+          -43.58278
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379438",
+        "origintime": "2010-09-27T21:10:43Z",
+        "longitude": 172.39375,
+        "latitude": -43.58278,
+        "depth": 9.27,
+        "magnitude": 3.48,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 34,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          172.39375,
+          -43.58278,
+          172.39375,
+          -43.58278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379394",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.57878,
+          -43.47094
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379394",
+        "origintime": "2010-09-27T19:05:21Z",
+        "longitude": 172.57878,
+        "latitude": -43.47094,
+        "depth": 7.31,
+        "magnitude": 3.21,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 12,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          172.57878,
+          -43.47094,
+          172.57878,
+          -43.47094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379340",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.00131,
+          -43.54959
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379340",
+        "origintime": "2010-09-27T16:20:46Z",
+        "longitude": 172.00131,
+        "latitude": -43.54959,
+        "depth": 8.7,
+        "magnitude": 3.46,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 26,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          172.00131,
+          -43.54959,
+          172.00131,
+          -43.54959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379330",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.38991,
+          -43.5593
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379330",
+        "origintime": "2010-09-27T15:53:11Z",
+        "longitude": 172.38991,
+        "latitude": -43.5593,
+        "depth": 5.02,
+        "magnitude": 3.32,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 25,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          172.38991,
+          -43.5593,
+          172.38991,
+          -43.5593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379319",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.57323,
+          -43.50208
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379319",
+        "origintime": "2010-09-27T15:14:27Z",
+        "longitude": 172.57323,
+        "latitude": -43.50208,
+        "depth": 5,
+        "magnitude": 3.13,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 12,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          172.57323,
+          -43.50208,
+          172.57323,
+          -43.50208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379266",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.382,
+          -43.56278
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379266",
+        "origintime": "2010-09-27T12:56:42Z",
+        "longitude": 172.382,
+        "latitude": -43.56278,
+        "depth": 7.73,
+        "magnitude": 3.34,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 24,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          172.382,
+          -43.56278,
+          172.382,
+          -43.56278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379244",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.29007,
+          -43.61375
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379244",
+        "origintime": "2010-09-27T11:56:57Z",
+        "longitude": 172.29007,
+        "latitude": -43.61375,
+        "depth": 6.54,
+        "magnitude": 3.34,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 26,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          172.29007,
+          -43.61375,
+          172.29007,
+          -43.61375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379185",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.03496,
+          -42.47861
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379185",
+        "origintime": "2010-09-27T08:48:33Z",
+        "longitude": 173.03496,
+        "latitude": -42.47861,
+        "depth": 9.69,
+        "magnitude": 4.27,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 19,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          173.03496,
+          -42.47861,
+          173.03496,
+          -42.47861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.88606,
+          -43.56258
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379117",
+        "origintime": "2010-09-27T05:46:19Z",
+        "longitude": 171.88606,
+        "latitude": -43.56258,
+        "depth": 6.83,
+        "magnitude": 3.63,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 25,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          171.88606,
+          -43.56258,
+          171.88606,
+          -43.56258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.22005,
+          -43.63549
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379104",
+        "origintime": "2010-09-27T05:14:40Z",
+        "longitude": 172.22005,
+        "latitude": -43.63549,
+        "depth": 10.31,
+        "magnitude": 3.53,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 29,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:58:00Z",
+        "bbox": [
+          172.22005,
+          -43.63549,
+          172.22005,
+          -43.63549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379093",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.21971,
+          -43.62333
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379093",
+        "origintime": "2010-09-27T04:43:04Z",
+        "longitude": 172.21971,
+        "latitude": -43.62333,
+        "depth": 5,
+        "magnitude": 3.14,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 8,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:57:00Z",
+        "bbox": [
+          172.21971,
+          -43.62333,
+          172.21971,
+          -43.62333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3379066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.38342,
+          -43.5636
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3379066",
+        "origintime": "2010-09-27T03:34:43Z",
+        "longitude": 172.38342,
+        "latitude": -43.5636,
+        "depth": 5,
+        "magnitude": 3.25,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 9,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:57:00Z",
+        "bbox": [
+          172.38342,
+          -43.5636,
+          172.38342,
+          -43.5636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378960",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.3705,
+          -43.60558
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378960",
+        "origintime": "2010-09-26T22:18:13Z",
+        "longitude": 172.3705,
+        "latitude": -43.60558,
+        "depth": 13.33,
+        "magnitude": 3.04,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 14,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:57:00Z",
+        "bbox": [
+          172.3705,
+          -43.60558,
+          172.3705,
+          -43.60558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378914",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.14531,
+          -43.60375
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378914",
+        "origintime": "2010-09-26T19:53:37Z",
+        "longitude": 172.14531,
+        "latitude": -43.60375,
+        "depth": 7.07,
+        "magnitude": 3.45,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 28,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:57:00Z",
+        "bbox": [
+          172.14531,
+          -43.60375,
+          172.14531,
+          -43.60375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378844",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.41661,
+          -43.60035
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378844",
+        "origintime": "2010-09-26T16:28:00Z",
+        "longitude": 172.41661,
+        "latitude": -43.60035,
+        "depth": 8.03,
+        "magnitude": 3.45,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 30,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:57:00Z",
+        "bbox": [
+          172.41661,
+          -43.60035,
+          172.41661,
+          -43.60035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3418198",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.90813,
+          -43.73812
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3418198",
+        "origintime": "2010-09-26T16:12:06Z",
+        "longitude": 172.90813,
+        "latitude": -43.73812,
+        "depth": 22.55,
+        "magnitude": 3.01,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 12,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T09:04:00Z",
+        "bbox": [
+          172.90813,
+          -43.73812,
+          172.90813,
+          -43.73812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378738",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.46524,
+          -43.63482
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378738",
+        "origintime": "2010-09-26T11:46:53Z",
+        "longitude": 172.46524,
+        "latitude": -43.63482,
+        "depth": 7.19,
+        "magnitude": 3.34,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 26,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:57:00Z",
+        "bbox": [
+          172.46524,
+          -43.63482,
+          172.46524,
+          -43.63482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378736",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.44949,
+          -43.64725
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378736",
+        "origintime": "2010-09-26T11:39:02Z",
+        "longitude": 172.44949,
+        "latitude": -43.64725,
+        "depth": 5,
+        "magnitude": 3.23,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 10,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:57:00Z",
+        "bbox": [
+          172.44949,
+          -43.64725,
+          172.44949,
+          -43.64725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378733",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.96339,
+          -43.34141
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378733",
+        "origintime": "2010-09-26T11:31:50Z",
+        "longitude": 171.96339,
+        "latitude": -43.34141,
+        "depth": 7.84,
+        "magnitude": 3.46,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 32,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:57:00Z",
+        "bbox": [
+          171.96339,
+          -43.34141,
+          171.96339,
+          -43.34141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378556",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.37186,
+          -43.63718
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378556",
+        "origintime": "2010-09-26T04:01:42Z",
+        "longitude": 172.37186,
+        "latitude": -43.63718,
+        "depth": 5,
+        "magnitude": 3.2,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 13,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:57:00Z",
+        "bbox": [
+          172.37186,
+          -43.63718,
+          172.37186,
+          -43.63718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378506",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.8644,
+          -43.56378
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378506",
+        "origintime": "2010-09-26T01:42:46Z",
+        "longitude": 171.8644,
+        "latitude": -43.56378,
+        "depth": 8.23,
+        "magnitude": 3.56,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 26,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:56:00Z",
+        "bbox": [
+          171.8644,
+          -43.56378,
+          171.8644,
+          -43.56378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378442",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.57446,
+          -43.58026
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378442",
+        "origintime": "2010-09-25T23:05:58Z",
+        "longitude": 172.57446,
+        "latitude": -43.58026,
+        "depth": 5.45,
+        "magnitude": 3.49,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 34,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:56:00Z",
+        "bbox": [
+          172.57446,
+          -43.58026,
+          172.57446,
+          -43.58026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378435",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.56863,
+          -43.57123
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378435",
+        "origintime": "2010-09-25T22:46:12Z",
+        "longitude": 172.56863,
+        "latitude": -43.57123,
+        "depth": 5.3,
+        "magnitude": 3.34,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 26,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:56:00Z",
+        "bbox": [
+          172.56863,
+          -43.57123,
+          172.56863,
+          -43.57123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378430",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.30467,
+          -43.5876
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378430",
+        "origintime": "2010-09-25T22:34:36Z",
+        "longitude": 172.30467,
+        "latitude": -43.5876,
+        "depth": 5,
+        "magnitude": 3.02,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 8,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:56:00Z",
+        "bbox": [
+          172.30467,
+          -43.5876,
+          172.30467,
+          -43.5876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quake.3378408",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.56184,
+          -43.57754
+        ]
+      },
+      "geometry_name": "origin_geom",
+      "properties": {
+        "publicid": "3378408",
+        "origintime": "2010-09-25T21:30:58Z",
+        "longitude": 172.56184,
+        "latitude": -43.57754,
+        "depth": 5,
+        "magnitude": 3.13,
+        "magnitudetype": "Ml",
+        "status": "reviewed",
+        "phases": 11,
+        "type": "earthquake",
+        "agency": "WEL(GNS_Primary)",
+        "updatetime": "2012-04-26T08:56:00Z",
+        "bbox": [
+          172.56184,
+          -43.57754,
+          172.56184,
+          -43.57754
+        ]
+      }
+    }
+  ]
+}

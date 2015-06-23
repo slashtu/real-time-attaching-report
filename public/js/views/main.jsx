@@ -78,8 +78,8 @@ var Main = React.createClass({
     Chart.create(el);
   },
 
-  gg:function(){
-    this.refs.leftNav.toggle();
+  filter:function(){
+    Chart.filter();
   },
 
   render: function() {
@@ -90,7 +90,7 @@ var Main = React.createClass({
         <AppBar title='Nexusguard' onLeftIconButtonTouchTap={this.gg}  iconClassNameRight="muidocs-icon-navigation-expand-more"/>
         <LeftNav docked={false} menuItems={menuItems} ref='leftNav' />
         <div style={ {float:'right'}} >
-          <Menu menuItems={filterMenuItems} autoWidth={false}/>
+          <Menu menuItems={filterMenuItems} autoWidth={false} onToggle={this.filter}/>
         </div>
       </div>
     );

@@ -5,7 +5,7 @@ var paths = {
 	view : 'public/www/*.html',
 	images : 'public/images/*.*',
     css: './public/css/*.css',
-    data: './public/data/nations.json',
+    data: './public/data/*',
     destDir: 'build',
     destCSS: 'build/assets/css',
     destData:'build/assets/data'
