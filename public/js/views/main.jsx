@@ -82,16 +82,26 @@ var Main = React.createClass({
     Chart.filter();
   },
 
+  play: function(){
+    Chart.play();
+  },
+
+  popupNav: function(){
+    this.refs.leftNav.toggle();
+  },
+
   render: function() {
 
     return (
       <div className="chart" >
-        
-        <AppBar title='Nexusguard' onLeftIconButtonTouchTap={this.gg}  iconClassNameRight="muidocs-icon-navigation-expand-more"/>
+       
+        <AppBar title='Nexusguard' onLeftIconButtonTouchTap={this.popupNav}  iconClassNameRight="muidocs-icon-navigation-expand-more"/>
         <LeftNav docked={false} menuItems={menuItems} ref='leftNav' />
         <div style={ {float:'right'}} >
           <Menu menuItems={filterMenuItems} autoWidth={false} onToggle={this.filter}/>
+          <RaisedButton label="Play" onTouchTap={this.play}/>
         </div>
+
       </div>
     );
   }

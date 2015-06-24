@@ -1,12 +1,16 @@
 var d3 = require('d3');
 
 var Chart = {};
+var Brush = {};
 
 Chart.create = function(el){
 
 	function on_brush(brush) {
 
         var s = brush.extent();
+
+        console.log(s);
+
         d3.selectAll(".circle").classed("selected", function (d) {
             var time = get_time(d);
             return s[0] <= time && time <= s[1];
@@ -81,12 +85,14 @@ Chart.create = function(el){
   });
 	      	// .on("click", toggleDot);
 
-	    var chart = timeseries_chart(scheme)
+	     Brush = timeseries_chart(scheme)
                     .x(get_time).xLabel("Earthquake origin time")
                     .y(get_magnitude).yLabel("Magnitude")
                     .brushmove(on_brush);
 
-   		 d3.select("body").datum(event.attack).call(chart);
+   		 d3.select("body").datum(event.attack).call(Brush);
+
+         //chart.brushplay();
 	});
 
 
@@ -95,16 +101,24 @@ Chart.create = function(el){
             width = 1050 - margin.left - margin.right,
             height = 80;
 
+
+        var start = d3.time.format.iso.parse("2010-09-27T19:59:10Z");
+            var end = d3.time.format.iso.parse("2010-09-30T19:59:10Z");
+
         var x = d3.time.scale(),
             y = d3.scale.linear(),
             x_label = "X", y_label = "Y",
             brush = d3.svg.brush().x(x).on("brush", _brushmove);
 
+        console.log(brush.extent());
+
         var get_x = no_op,
             get_y = no_op;
 
         function timeseries(selection) {
+            console.log(selection);
             selection.each(function (d) {
+
 
                 x.range([0, width]);
                 y.range([height, 0]);
@@ -147,12 +161,15 @@ Chart.create = function(el){
                 series.append("g")
                         .attr("class", "brush")
                         .call(brush)
+                        .call(brush.event)
                         .selectAll("rect")
                         .attr("height", height)
                         .style("stroke-width", 1)
                         .style("stroke", color[color.length - 1])
                         .style("fill", color[2])
                         .attr("opacity", 0.4);
+                        
+                console.log(d3.extent(d, get_x));
 
                 x.domain(d3.extent(d, get_x));
                 x_axis.call(d3.svg.axis().scale(x).orient("bottom"));
@@ -160,7 +177,7 @@ Chart.create = function(el){
                 y.domain(d3.extent(d, get_y));
                 y_axis.call(d3.svg.axis().scale(y).orient("left"));
 
-                console.log(d);
+                // console.log(d);
 
                 series.append("g").attr("class", "timeseries")
                     .attr("clip-path", "url(#clip)")
@@ -179,12 +196,14 @@ Chart.create = function(el){
         }
 
         timeseries.x = function (accessor) {
+            console.log(accessor);
             if (!arguments.length) return get_x;
             get_x = accessor;
             return timeseries;
         };
 
         timeseries.y = function (accessor) {
+            console.log(accessor);
             if (!arguments.length) return get_y;
             get_y = accessor;
             return timeseries;
@@ -208,7 +227,21 @@ Chart.create = function(el){
             return timeseries;
         };
 
+        timeseries.brushplay = function (){
+
+            var start = d3.time.format.iso.parse("2010-09-29T10:50:10Z");
+            var end = d3.time.format.iso.parse("2010-09-29T19:59:10Z");
+
+console.log('@@@@@@@@@@@@@@@@@');
+            console.log([start,end]);
+
+            // brush.extent([start,end]);
+            d3.select('.brush').transition().duration(1500).call(brush.extent([start, end])).call(brush.event);
+        };
+
         function _brushmove() {
+
+
             on_brush.call(null, brush);
         }
 
@@ -216,6 +249,10 @@ Chart.create = function(el){
 
         return timeseries;
     }
+};
+
+Chart.play = function(){
+    Brush.brushplay();
 };
 
 Chart.filter = function(){
