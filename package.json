@@ -16,7 +16,7 @@
     "d3": "^3.5.5",
     "debug": "~2.1.1",
     "express": "~4.12.2",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.0",
     "gulp-webpack": "^1.5.0",
     "json-loader": "^0.5.2",
     "material-ui": "^0.9.1",
