@@ -22,7 +22,7 @@
     "material-ui": "^0.9.1",
     "morgan": "~1.5.1",
     "node-libs-browser": "^0.5.2",
-    "react": "^0.13.3",
+    "react": "^0.14.9",
     "react-flexgrid": "^0.7.0",
     "react-tap-event-plugin": "^0.1.7",
     "serve-favicon": "~2.2.0",
