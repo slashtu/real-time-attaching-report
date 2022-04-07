@@ -26,6 +26,6 @@
     "react-flexgrid": "^0.7.0",
     "react-tap-event-plugin": "^0.1.7",
     "serve-favicon": "~2.2.0",
-    "webpack": "^1.9.11"
+    "webpack": "^4.0.0"
   }
 }
